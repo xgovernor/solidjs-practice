@@ -5,10 +5,14 @@ import styles from './App.module.css';
 
 const App: Component = () => {
   return (
-    <div class={styles.App}>
+    <div class="text-center">
       <header class={styles.header}>
-        <img src={logo} class={styles.logo} alt="logo" />
-        <p>
+        <img
+          src={logo}
+          class="animate-spin infinite duration-[20000]  h-[40vmin] pointer-events-none"
+          alt="logo"
+        />
+        <p class="text-red-600">
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <a
